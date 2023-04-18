@@ -2,7 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Logo from './Logo';
-import {LinkedInIcon, TwitterIcon} from './Icons'
+import {LinkedInIcon, MoonIcon, SunIcon, TwitterIcon} from './Icons'
+import useThemeSwitcher from './hooks/useThemeSwitcher';
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
