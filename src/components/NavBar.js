@@ -2,13 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Logo from './Logo';
-import { LinkedInIcon, TwitterIcon } from './Icons';
+import { LinkedInIcon, TwitterIcon, SunIcon, MoonIcon } from './Icons';
 import { motion } from "framer-motion";
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f7e6306cadb75552b16acadf249ee50c140eb289
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
   return (
@@ -32,15 +28,6 @@ const NavBar = () => {
         <CustomLink href="/projects" title="Project" className='mx-4' />
         <CustomLink href="/articles" title="Articles" className='ml-4' />
       </nav>
-<<<<<<< HEAD
-      <nav className='flex items-center justify-center flex-wrap'>
-        <motion.a href="https://google.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>
-          <LinkedInIcon />
-        </motion.a>
-        <motion.a href="https://google.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>
-          <TwitterIcon />
-        </motion.a>
-=======
       {/* <Logo /> */}
       <nav>
         <Link href="/" target={"_blank"}><LinkedInIcon /></Link>
@@ -60,7 +47,6 @@ const NavBar = () => {
             mode === "dark" ? <SunIcon className={"fill-dark"} /> : <MoonIcon className={"fill-dark"} />
           }
         </button>
->>>>>>> f7e6306cadb75552b16acadf249ee50c140eb289
       </nav>
       <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
         <Logo />
