@@ -32,14 +32,6 @@ const NavBar = () => {
       <nav>
         <Link href="/" target={"_blank"}><LinkedInIcon /></Link>
         <Link href="/" target={"_blank"}><TwitterIcon /></Link>
-         <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-
         <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className="ml-3 flex items-center justify-center rounded-full p-1"
         >
