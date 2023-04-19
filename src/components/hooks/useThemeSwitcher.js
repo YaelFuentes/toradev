@@ -15,7 +15,7 @@ const useThemeSwitcher = () => {
         if (check === "dark") {
           document.documentElement.classList.add("dark")
         } else {
-          document.documentElement.classList.add("dark")
+          document.documentElement.classList.remove("dark")
         }
       } else {
         let check = mediaQuery.matches ? "dark" : "light"
@@ -24,7 +24,7 @@ const useThemeSwitcher = () => {
         if (check === "dark") {
           document.documentElement.classList.add("dark")
         } else {
-          document.documentElement.classList.add("dark")
+          document.documentElement.classList.remove("dark")
         }
       }
     }
@@ -40,7 +40,7 @@ const useThemeSwitcher = () => {
     document.documentElement.classList.add("dark")
   }else {
     window.localStorage.setItem("theme","light");
-    document.documentElement.classList.add("dark")
+    document.documentElement.classList.remove("dark")
   }
   }, [mode])
 
