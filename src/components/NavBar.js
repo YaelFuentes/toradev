@@ -29,20 +29,15 @@ const NavBar = () => {
         <CustomLink href="/projects" title="Project" className='mx-4' />
         <CustomLink href="/articles" title="Articles" className='ml-4' />
       </nav>
-      {/* <Logo /> */}
-      <nav>
-        <Link href="/" target={"_blank"}><LinkedInIcon /></Link>
-        <Link href="/" target={"_blank"}><TwitterIcon /></Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-        <Link href="/" target={"_blank"}>T</Link>
-
+      <nav className='flex items-center justify-center flex-wrap'>
+        <Link href="/" target={"_blank"} className='w-6 mr-3'>
+          <LinkedInIcon />
+        </Link>
+        <Link href="/" target={"_blank"} className='w-6 mr-3'>
+          <TwitterIcon />
+        </Link>
         <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
-          className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light": "bg-light text-dark"}`}
+          className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
         >
           {
             mode === "dark" ? <SunIcon className={"fill-dark"} /> : <MoonIcon className={"fill-dark"} />
