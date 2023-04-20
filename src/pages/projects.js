@@ -4,6 +4,7 @@ import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/hooks/layout';
 import Link from 'next/link';
 import Image from 'next/image';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FeaturedProject = ({ type, title, summary, img, link }) => {
   return (
@@ -52,6 +53,7 @@ const projects = () => {
         <title>CodeBucks | Projects Page</title>
         <meta name='description' content='any description' />
       </Head>
+      <TransitionEffect />
       <main className='w-full mb-16 flex flex-col items-center justify-center'>
         <Layout className='pt-16'>
           <AnimatedText text="Imagination Trumps Knowledge!"

@@ -7,6 +7,7 @@ import homeImage from '/public/HomeImage.png'
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import HireMe from '@/components/HireMe';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <TransitionEffect />
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>

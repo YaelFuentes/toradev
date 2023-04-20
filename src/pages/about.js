@@ -9,6 +9,7 @@ import profilePic from '../../public/images/profile/developer-pic-2.jpg';
 import { useMotionValue, useSpring, useInView } from 'framer-motion';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
+import TransitionEffect from '@/components/TransitionEffect';
 
 
 const AnimatedNumbers = ({ value }) => {
@@ -41,6 +42,7 @@ const about = () => {
         <title>CodeBucks | About Page</title>
         <meta name='description' content='any description' />
       </Head>
+      <TransitionEffect />
       <main className='flex w-full flex-col items-center justify-center'>
         <Layout className='pt-16'>
           <AnimatedText text="Passion Fuels Purpose!" className='mb-16' />
