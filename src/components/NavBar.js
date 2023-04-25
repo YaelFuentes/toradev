@@ -24,10 +24,10 @@ const NavBar = () => {
   return (
     <header className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light'>
       <nav>
-        <CustomLink href="/" title="Home" className='mr-4' />
-        <CustomLink href="/about" title="About" className='mx-4' />
-        <CustomLink href="/projects" title="Project" className='mx-4' />
-        <CustomLink href="/articles" title="Articles" className='ml-4' />
+        <CustomLink href="/" title="Inicio" className='mr-4' />
+        <CustomLink href="/desarrolloWeb" title="Desarrollo web" className='mx-4' />
+        <CustomLink href="/academiaTrading" title="Academia Trading" className='mx-4' />
+        <CustomLink href="/inversores" title="Inversores" className='ml-4' />
       </nav>
       <nav className='flex items-center justify-center flex-wrap'>
         <Link href="/" target={"_blank"} className='w-6 mr-3'>

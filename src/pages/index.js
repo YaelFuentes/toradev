@@ -25,33 +25,33 @@ export default function Home() {
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
-              <Image src={homeImage} alt='CodeBucks' className='w-full h-auto' 
-              priority
-              sizes='(max-width:768px) 100vw,
+              <Image src={homeImage} alt='CodeBucks' className='w-full h-auto'
+                priority
+                sizes='(max-width:768px) 100vw,
               (max-width:1200px) 50vm, 50vw'
               />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
-              <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left'/>
+              <AnimatedText text="La innovación como motor del crecimiento empresarial" className='!text-6xl !text-left' />
               <p className='my-4 text-base font-medium'>
-                Esto es un texto de prueba para la pagina web de Tora ejenshi
-                donde hablara de los proyectos de software y trading de
-                criptomonedas entre otros
+                Descubre cómo la innovación tecnológica puede impulsar tu negocio hacia el éxito.
+                Nuestras soluciones de vanguardia te brindan la ventaja competitiva que necesitas para superar los desafíos del mercado actual.
+                ¡Potencia tu negocio con nuestra tecnología líder en el mercado y lleva tus resultados al siguiente nivel!
               </p>
               <div className='flex items-center self-start mt-2'>
-                <Link href='/dummy.pdf' target={'_blank'} 
-                className='flex items-center bg-dark text-light p-2.5 px-6 
+                <Link href='/dummy.pdf' target={'_blank'}
+                  className='flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
                 border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light'>
                   Resume
                 </Link>
-                <Link href='mailto:abcd@gmail.com' 
-                className='ml-4 text-lg font-medium capitalize text-dark underline  dark:text-light'>Contact</Link>
-              </div>  
+                <Link href='mailto:abcd@gmail.com'
+                  className='ml-4 text-lg font-medium capitalize text-dark underline  dark:text-light'>Contact</Link>
+              </div>
             </div>
           </div>
         </Layout>
-        <HireMe/>
+        <HireMe />
       </main>
     </>
   )
