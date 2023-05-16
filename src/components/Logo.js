@@ -19,7 +19,7 @@ const Logo = () => {
           </MotionLink>
         </div> */
     <div>
-      <Image src={logoTora} alt='CodeBucks' className='w-32 h-21 dark:text-light dark:bg-none '
+      <Image src={logoTora} alt='CodeBucks' className='w-32 h-21 dark:text-light dark:bg-none'
         priority
         /* sizes='(max-width:768px) 100vw,(max-width:1200px) 50vm, 50vw' */
       />

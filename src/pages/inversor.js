@@ -4,10 +4,10 @@ import Head from 'next/head'
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg"
-import article2 from "../../public/images/articles/pagination component in reactjs.jpg"
+/* import article1 from "../../public/images/articles/pagination component in reactjs.jpg" */
+/* import article2 from "../../public/images/articles/pagination component in reactjs.jpg" */
 import { motion, useMotionValue } from 'framer-motion';
-import article3 from "../../public/images/articles/create modal component in react using react portals.png"
+/* import article3 from "../../public/images/articles/create modal component in react using react portals.png" */
 
 const FramerImage = motion(Image)
 
@@ -85,18 +85,18 @@ const inversor = () => {
         <Layout className='pt-16'>
           <AnimatedText text="-Words Can Change The World! " className='mb-16' />
           <ul className='grid grid-cols-2 gap-16'>
-            <FeaturedArticle title="Build A Custom Pagination Component In Reactjs From Scratch" summary="Follow this step-by-step guide to integrate Pagination component in your ReactJS project." time="9 min read" link="/"
+            {/* <FeaturedArticle title="Build A Custom Pagination Component In Reactjs From Scratch" summary="Follow this step-by-step guide to integrate Pagination component in your ReactJS project." time="9 min read" link="/"
               img={article1}
-            />
-            <FeaturedArticle title="Build A Custom Pagination Component In Reactjs From Scratch" summary="Follow this step-by-step guide to integrate Pagination component in your ReactJS project." time="9 min read" link="/"
+            /> */}
+            {/* <FeaturedArticle title="Build A Custom Pagination Component In Reactjs From Scratch" summary="Follow this step-by-step guide to integrate Pagination component in your ReactJS project." time="9 min read" link="/"
               img={article2}
-            />
+            /> */}
           </ul>
           <h2 className='font-bold text-4x1 w-full text-center my-16 mt-32'>All articles</h2>
           <ul>
+            {/* <FeaturedArticle title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling" date="March 22, 2023" link="/" img={article3} />
             <FeaturedArticle title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling" date="March 22, 2023" link="/" img={article3} />
-            <FeaturedArticle title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling" date="March 22, 2023" link="/" img={article3} />
-            <FeaturedArticle title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling" date="March 22, 2023" link="/" img={article3} />
+            <FeaturedArticle title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling" date="March 22, 2023" link="/" img={article3} /> */}
           </ul>
         </Layout>
       </main>

@@ -108,7 +108,7 @@ const about = () => {
             </div>
           </div>
           <Experience />
-          <Education />
+          {/* <Education /> */}
         </Layout>
       </main >
     </>
